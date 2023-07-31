@@ -93,7 +93,7 @@ class ItemEnterEventListener(EventListener):
     def on_event(self, event, extension):
         """ Handles the event """
         selected_provider = event.get_data()
-        Faker.seed(0)
+        #Faker.seed(0)
 
         items = []
 
